@@ -42,18 +42,18 @@ table {
 }
 
 /* ~~~~~Styling starts here~~~~~*/
-*{
+/* *{
     border: 1px solid black;
-}
+} */
 body {    
-
+background-color: #6D6875;
 }
 header {
-
+    background-color: #FFCDB2;
+    padding-bottom: 0.5%;
 }
 div .header-icon {    
     width: 100%;
-    background-image: url(/expat-journal/public/images/jeremy-bishop-QHZn3-0bbEM-unsplash.jpg);
     height: 50px;
     text-align: center;
     margin: 1 38%;
@@ -82,16 +82,21 @@ nav .links {
     flex-wrap: wrap;
     margin: 5% 10%;
     width: 80%;
-    height: 500px;
+    height: 700px;
     text-align: center;
+    background-color: #B5838D;
 }
 .photoGrid {
     display: flex;
-    width: 20%;
+    flex-wrap: wrap;
+    width: 21%;
     justify-content: center;
     margin: 1% auto;
-    background-image: url('images/photo-1501785888041-af3ef285b470.webp');
-    
+}
+.photoGrid img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
 }
 footer {
     display: flex;
@@ -99,6 +104,7 @@ footer {
     text-align: center;
     font-size: 1.5rem;
     width: 100%;
+    background-color: #FFB4A2;
 }
 .footer-div {
     height: 7vh;
