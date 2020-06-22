@@ -42,15 +42,16 @@ table {
 }
 
 /* ~~~~~Styling starts here~~~~~*/
-/* *{
+*{
     border: 1px solid black;
-} */
+}
 body {    
 background-color: #6D6875;
 }
 header {
     background-color: #FFCDB2;
-    padding-bottom: 0.5%;
+    background: linear-gradient(to bottom, #FFCDB2 0%, #FFB4A2 100%);
+    padding-bottom: 1%;
 }
 div .header-icon {    
     width: 100%;
@@ -85,6 +86,8 @@ nav .links {
     height: 700px;
     text-align: center;
     background-color: #B5838D;
+    background: linear-gradient(to bottom, #FFB4A2 0%, #E5989B 50%, #B5838D 100%);
+    
 }
 .photoGrid {
     display: flex;
@@ -104,9 +107,11 @@ footer {
     text-align: center;
     font-size: 1.5rem;
     width: 100%;
-    background-color: #FFB4A2;
+    background-color: #B5838D;
+    background: linear-gradient(to top, #B5838D 0%, #E5989B 100%);
 }
 .footer-div {
-    height: 7vh;
+    height: 4vh;
     width: 15%;
+    padding-top: 2%;
 }
