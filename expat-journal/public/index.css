@@ -42,9 +42,9 @@ table {
 }
 
 /* ~~~~~Styling starts here~~~~~*/
-*{
+/* *{
     border: 1px solid black;
-}
+} */
 body {    
 background-color: #6D6875;
 }
@@ -114,4 +114,21 @@ footer {
     height: 4vh;
     width: 15%;
     padding-top: 2%;
+    padding-bottom: 2%;
+}
+.icons{    
+    all: initial;
+    background: linear-gradient(to top, #B5838D 50%, #E5989B 180%);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+.icons img{    
+    background: linear-gradient(to top, #B5838D 0%, #E5989B 180%);
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    height: 75%;
+    padding: 0 10%;
 }
