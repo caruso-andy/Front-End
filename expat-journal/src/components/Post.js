@@ -2,7 +2,7 @@ import React from 'react'
 
 
 
-const Card = (props) => {
+const Post = (props) => {
 
     return (
         <div>
@@ -11,4 +11,4 @@ const Card = (props) => {
     )
 }
 
-export default Card 
+export default Post 
