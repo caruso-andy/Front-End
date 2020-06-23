@@ -84,6 +84,7 @@ nav .links {
     margin: 5% 10%;
     width: 80%;
     height: 700px;
+    padding-top: 1%;
     text-align: center;
     background-color: #B5838D;
     background: linear-gradient(to bottom, #FFB4A2 0%, #E5989B 50%, #B5838D 100%);
